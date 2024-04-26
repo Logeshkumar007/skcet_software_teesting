@@ -1,8 +1,10 @@
 package com.skcet;
 
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
@@ -27,6 +29,7 @@ public class AppTest
     JavascriptExecutor jExecutor;
     ExtentReports reports;
     ExtentSparkReporter spark;
+    XSSFWorkbook workbook;
     @BeforeTest
     public void BeforeTest()
     {
@@ -35,9 +38,11 @@ public class AppTest
          jExecutor=(JavascriptExecutor)driver;
         reports=new ExtentReports();
         spark=new ExtentSparkReporter("E:\\Software Testing\\Selenium\\skcet_software_teesting\\day 2\\cc2\\src\\test\\java\\com\\skcet\\report.html");
-
         spark.config().setTheme(Theme.DARK);
         reports.attachReporter(spark);
+        workbook=new XSSFWorkbook();
+
+        
     }
     @Test
     public void Test1()
@@ -67,7 +72,7 @@ public class AppTest
         driver.navigate().to("https://www.barnesandnoble.com/");
         actions.moveToElement(driver.findElement(By.xpath("/html/body/div[2]/header/nav/div/div[4]/div/ul/li[5]/a"))).perform();
         Thread.sleep(2000);
-        driver.findElement(By.xpath("/html/body/div[2]/header/nav/div/div[4]/div/ul/li[5]/div/div/div[1]/div/div[2]/div[1]/dd/a[1]")).click();;
+        // driver.findElement(By.xpath("/html/body/div[2]/header/nav/div/div[4]/div/ul/li[5]/div/div/div[1]/div/div[2]/div[1]/dd/a[1]")).click();;
         
         test2.log(Status.PASS, "test2 success");
         reports.flush();
@@ -83,10 +88,28 @@ public void Test3() throws Exception
     
     driver.navigate().to("https://www.barnesandnoble.com/");
     Thread.sleep(10000);
-    
-    // driver.findElement(By.xpath("/html/body/main/div[3]/div[3]/div/section/div/div/div/a[1]")).click();;
-    // driver.findElement(By.xpath("/html/body/main/section/div[1]/div[2]/div/div/div[2]/div/div[73]/div/div[1]/a")).click();;
-    test3.log(Status.PASS, "test2 success");
+    WebElement bnm=driver.findElement(By.xpath("//*[@id='footer']/div/dd/div/div/div[1]/div/a[5]"));
+  
+   
+    actions.moveToElement(bnm);
+    bnm.click();
+    WebElement joinRewars=driver.findElement(By.linkText("JOIN REWARDS"));
+    actions.moveToElement(joinRewars);
+    joinRewars.click();
+    driver.switchTo().frame(0);
+    String headtext=driver.findElement(By.xpath("/html/body/div[7]/div/iframe")).getText();
+    driver.findElement(By.xpath("/html/body/div[2]/form[2]/div[1]/div[1]/div/div/input[1]")).sendKeys("aabcd");
+    driver.findElement(By.xpath("/html/body/div[2]/form[2]/div[1]/div[2]/div/div/input[1]")).sendKeys("aaabcd");
+    driver.findElement(By.xpath("/html/body/div[2]/form[2]/div[1]/div[4]/div/div/button")).click();
+    if(headtext.contains("Sign in"))
+    {
+        test3.log(Status.PASS, "test2 success as text found");
+        
+    }
+    else{
+        
+        test3.log(Status.FAIL, "text missing");
+    }
     reports.flush();
     }
 
