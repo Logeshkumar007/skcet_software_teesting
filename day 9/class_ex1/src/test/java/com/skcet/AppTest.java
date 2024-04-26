@@ -85,6 +85,7 @@ public class AppTest {
                 System.out.println("sh");
                 System.out.println("lo");
                 test1.log(Status.PASS, "success and verified");
+                
             }
             report.flush();
             // driver.findElement(By.xpath("/html/body/main/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[3]/div[1]")).click();
