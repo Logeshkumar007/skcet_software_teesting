@@ -84,7 +84,7 @@ public void Test3() throws Exception
     driver.navigate().to("https://www.barnesandnoble.com/");
     Thread.sleep(10000);
     
-    driver.findElement(By.xpath("/html/body/main/div[3]/div[3]/div/section/div/div/div/a[1]")).click();;
+    // driver.findElement(By.xpath("/html/body/main/div[3]/div[3]/div/section/div/div/div/a[1]")).click();;
     // driver.findElement(By.xpath("/html/body/main/section/div[1]/div[2]/div/div/div[2]/div/div[73]/div/div[1]/a")).click();;
     test3.log(Status.PASS, "test2 success");
     reports.flush();
