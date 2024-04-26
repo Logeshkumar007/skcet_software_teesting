@@ -17,6 +17,8 @@ public class AppTest
 
             Logger logger=LogManager.getLogger(AppTest.class);
             logger.info("adkj");
+            logger.warn("dikus");
+            logger.error("sjjs");
         }
         catch(Exception e)
         {

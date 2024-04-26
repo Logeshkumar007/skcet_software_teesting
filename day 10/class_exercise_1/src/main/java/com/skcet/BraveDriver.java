@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BraveDriver extends ChromeDriver {
     
-    static ChromeOptions options =  new ChromeOptions().setBinary("C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
+    static ChromeOptions options =  new ChromeOptions().setBinary("C:\\Users\\LOGESH\\AppData\\Local\\BraveSoftware\\Brave-Browser\\Application\\brave.exe");
     
     public BraveDriver()    {
         super(ChromeDriverService.createDefaultService(),options);

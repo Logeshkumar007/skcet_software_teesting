@@ -41,6 +41,7 @@ public class AppTest
     {
 		driver.get("https://www.moneycontrol.com");
         log.info("Opened Website");
+        log.warn("be carefull");
     }
 
 
@@ -90,7 +91,7 @@ public class AppTest
         Select select = new Select(scheme);
         select.selectByValue("MAA587");
 
-        log.info("selected given scheme");
+        log.warn("selected given scheme");
     }
 
     @Test(dependsOnMethods = "selectScheme")
