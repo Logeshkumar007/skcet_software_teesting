@@ -269,3 +269,8 @@
 26 Apr 2024 20:20:33 TRACE: Resolving type for handle stxstringf179type
 26 Apr 2024 20:20:33 INFO : before test ended
 26 Apr 2024 20:20:34 INFO : test1 started
+26 Apr 2024 20:21:06 INFO : test1 ended
+26 Apr 2024 20:21:06 INFO : test2 started
+26 Apr 2024 20:21:16 INFO : test1 started
+26 Apr 2024 20:21:16 INFO : test3 started
+26 Apr 2024 20:21:28 INFO : driver has quited

@@ -105,8 +105,9 @@ public class AppTest
         
     driver.navigate().to("https://www.barnesandnoble.com/");
     Thread.sleep(10000);
+    
     WebElement bnm=driver.findElement(By.xpath("/html/body/main/div[3]/div[3]/div/section/div/div/div/a[1]/div"));
-    actions.scrollToElement(bnm);
+   
     bnm.click();
 
 
