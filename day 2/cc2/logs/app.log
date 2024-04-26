@@ -175,3 +175,7 @@
 26 Apr 2024 19:49:40 INFO : ss took succesfully
 26 Apr 2024 19:49:43 INFO : test 3 ended
 26 Apr 2024 19:49:43 INFO : testing closed
+26 Apr 2024 19:49:58 INFO : text found in test 1
+26 Apr 2024 19:49:59 INFO : ss took succesfully
+26 Apr 2024 19:50:02 INFO : test1 ended
+26 Apr 2024 19:50:02 INFO : testing closed
