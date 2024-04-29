@@ -29,9 +29,6 @@ public class App
 
             XSSFSheet sheet=workbook.getSheetAt(0); // 3.	Sheet Object
 
-
-
-
             int rowCount=sheet.getLastRowNum(); // toget no of rows
             int colCount=sheet.getRow(0).getLastCellNum(); // toget no of columns
     

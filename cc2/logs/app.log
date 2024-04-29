@@ -501,3 +501,132 @@
 26 Apr 2024 20:38:31 FATAL: Trying to find SIGN IN POP UP will fail
 26 Apr 2024 20:38:31 ERROR: SIGN IN POP UP not found
 26 Apr 2024 20:38:31 INFO : driver has quited
+27 Apr 2024 09:05:09 INFO : before test started
+27 Apr 2024 09:05:12 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+27 Apr 2024 09:05:12 DEBUG: Parsing relationship: /_rels/.rels
+27 Apr 2024 09:05:12 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+27 Apr 2024 09:05:12 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+27 Apr 2024 09:05:12 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+27 Apr 2024 09:05:12 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+27 Apr 2024 09:05:12 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+27 Apr 2024 09:05:12 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+27 Apr 2024 09:05:12 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+27 Apr 2024 09:05:12 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+27 Apr 2024 09:05:12 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+27 Apr 2024 09:05:12 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+27 Apr 2024 09:05:12 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+27 Apr 2024 09:05:12 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+27 Apr 2024 09:05:12 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+27 Apr 2024 09:05:12 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+27 Apr 2024 09:05:12 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle themefd26doctype
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle stylesheet5d8bdoctype
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctstylesheet4257type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctfonts6623type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctfont14d8type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctfills2c6ftype
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctfill550ctype
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctborders0d66type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctborderf935type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctcellxfs1322type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctxf97f7type
+27 Apr 2024 09:05:12 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctdxfsb26atype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle cttablestyles872ftype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle sstf81fdoctype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctsst44f3type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctrsta472type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle workbookec17doctype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctworkbook83c3type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctsheets49fdtype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctsheet4dbetype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle strelationshipid1e94type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle worksheetf539doctype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctworksheet530dtype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctcols627ctype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctcola95ftype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctsheetdata8408type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctrowdd39type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle ctcell842btype
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle stcellrefe4e0type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle stcelltypebf95type
+27 Apr 2024 09:05:13 TRACE: Resolving type for handle stxstringf179type
+27 Apr 2024 09:05:13 INFO : before test ended
+27 Apr 2024 09:05:13 INFO : test1 started
+27 Apr 2024 09:05:25 INFO : took screenshot
+27 Apr 2024 09:05:28 INFO : test1 ended
+27 Apr 2024 09:05:28 INFO : test2 started
+27 Apr 2024 09:05:40 INFO : took screenshot
+27 Apr 2024 09:05:40 INFO : test2 ended
+27 Apr 2024 09:05:40 INFO : test 3 started
+27 Apr 2024 09:05:40 INFO : Choosing BN Membership
+27 Apr 2024 09:06:07 INFO : JOIN REWARDS clicked
+27 Apr 2024 09:06:15 INFO : Screenshot taken for evidence
+27 Apr 2024 09:06:15 FATAL: Trying to find SIGN IN POP UP will fail
+27 Apr 2024 09:06:15 ERROR: SIGN IN POP UP not found
+27 Apr 2024 09:06:15 INFO : driver has quited
+27 Apr 2024 09:14:15 INFO : before test started
+27 Apr 2024 09:14:18 DEBUG: Parsing relationship: /xl/_rels/workbook.xml.rels
+27 Apr 2024 09:14:18 DEBUG: Parsing relationship: /_rels/.rels
+27 Apr 2024 09:14:18 TRACE: Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+27 Apr 2024 09:14:18 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+27 Apr 2024 09:14:18 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+27 Apr 2024 09:14:18 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+27 Apr 2024 09:14:18 TRACE: Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+27 Apr 2024 09:14:18 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+27 Apr 2024 09:14:18 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+27 Apr 2024 09:14:18 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+27 Apr 2024 09:14:18 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+27 Apr 2024 09:14:18 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+27 Apr 2024 09:14:18 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+27 Apr 2024 09:14:18 TRACE: Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+27 Apr 2024 09:14:18 TRACE: Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+27 Apr 2024 09:14:18 TRACE: Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+27 Apr 2024 09:14:18 TRACE: Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle themefd26doctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle stylesheet5d8bdoctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctstylesheet4257type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctfonts6623type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctfont14d8type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctfills2c6ftype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctfill550ctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctborders0d66type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctborderf935type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctcellxfs1322type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctxf97f7type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctcellstylexfsa81ftype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctdxfsb26atype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle cttablestyles872ftype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle sstf81fdoctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctsst44f3type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctrsta472type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle workbookec17doctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctworkbook83c3type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctsheets49fdtype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctsheet4dbetype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle strelationshipid1e94type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle worksheetf539doctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctworksheet530dtype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctcols627ctype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctcola95ftype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctsheetdata8408type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctrowdd39type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle ctcell842btype
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle stcellrefe4e0type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle stcelltypebf95type
+27 Apr 2024 09:14:18 TRACE: Resolving type for handle stxstringf179type
+27 Apr 2024 09:14:18 INFO : before test ended
+27 Apr 2024 09:14:18 INFO : test1 started
+27 Apr 2024 09:14:32 INFO : took screenshot
+27 Apr 2024 09:14:36 INFO : test1 ended
+27 Apr 2024 09:14:36 INFO : test2 started
+27 Apr 2024 09:14:43 INFO : took screenshot
+27 Apr 2024 09:14:43 INFO : test2 has ended
+27 Apr 2024 09:14:43 INFO : test 3 has started
+27 Apr 2024 09:14:43 INFO : Choosing BN Membership
+27 Apr 2024 09:14:48 INFO : JOIN REWARDS clicked
+27 Apr 2024 09:14:56 INFO : Screenshot taken for evidence
+27 Apr 2024 09:14:56 FATAL: Trying to find SIGN IN POP UP will fail
+27 Apr 2024 09:14:56 ERROR: SIGN IN POP UP not found
+27 Apr 2024 09:14:56 INFO : test 3 has ended
+27 Apr 2024 09:14:56 INFO : driver has quited
