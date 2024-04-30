@@ -1,0 +1,10 @@
+2024-03-26 09:58:03,385 [main] INFO  ebanking - URL Opened
+2024-03-26 09:58:03,531 [main] INFO  ebanking - username Entered
+2024-03-26 09:58:03,594 [main] INFO  ebanking - passwrod Entered
+2024-03-26 09:58:05,569 [main] INFO  ebanking - Button Clicked
+2024-03-26 09:58:05,580 [main] INFO  ebanking - Login test passed
+2024-03-26 10:20:51,071 [main] INFO  ebanking - URL Opened
+2024-03-26 10:20:51,186 [main] INFO  ebanking - username Entered
+2024-03-26 10:20:51,257 [main] INFO  ebanking - passwrod Entered
+2024-03-26 10:20:53,060 [main] INFO  ebanking - Button Clicked
+2024-03-26 10:20:53,071 [main] INFO  ebanking - Login test passed
